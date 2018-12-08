@@ -1,3 +1,22 @@
-#color{
-    color: red;
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+
+.container-fluid {
+    height: 40vh;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 3.414rem;
+    font-family: 'Charmonman', cursive, sans-serif;
+    font-weight: bolder;
+    color: gold;
+
+}
+
+.rounded-circle{
+  height: 20vh;
+}
+
+.fab fa-js{
+    float: left;
+    margin-right: 1rem;
 }
