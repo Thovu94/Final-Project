@@ -40,3 +40,12 @@ div i.fa-css3-alt {
 div i.fa-github {
     color: #5e2683;
 }
+/* Pofolio*/
+
+.background{
+    background-image: url(../img/luke-pamer-7319-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
