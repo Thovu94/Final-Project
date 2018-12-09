@@ -12,11 +12,31 @@
 
 }
 
-.rounded-circle{
-  height: 20vh;
+h1 {
+    color: red;
 }
 
-.fab fa-js{
-    float: left;
-    margin-right: 1rem;
+.rounded-circle {
+    height: 20vh;
+}
+
+div i.fa-js {
+    color: #efd81d;
+    background-color: black;
+}
+
+div i.fa-sass {
+    color: #c76494;
+}
+
+div i.fa-html5 {
+    color: #dd4d2a;
+}
+
+div i.fa-css3-alt {
+    color: #249cda;
+}
+
+div i.fa-github {
+    color: #5e2683;
 }
