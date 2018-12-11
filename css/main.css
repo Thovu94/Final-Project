@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Charmonman');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .container-fluid {
     height: 40vh;
     font-size: 3rem;
-    font-family: 'Charmonman', cursive, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     color: white;
 
@@ -40,17 +40,33 @@ div i.fa-github {
 
 /* Pofolio*/
 .home-background {
-    background-image: url(../img/1glauco-zuccaccia-132831-unsplash.jpg);
+    background-image: url(../img/luca-micheli-673093-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-
+     
 }
 
 
 .background {
-    background-image: url(../img/luke-pamer-7319-unsplash.jpg);
+    background-image: url(../img/luca-micheli-673093-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+   
 }
+
+.contact-background {
+    background-image: url(../img/luca-micheli-673093-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150vh;
+
+
+}
+option{
+    font-size: 1rem;
+}
+
+
