@@ -5,21 +5,23 @@
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    color: white;
+    color: #f9f7f7;
 
 }
 
 h1 {
-    color: red;
+    color: black;
 }
 
 .rounded-circle {
     height: 20vh;
+
 }
+
 
 div i.fa-js {
     color: #efd81d;
-    background-color: black;
+    background-color: white;
 }
 
 div i.fa-sass {
@@ -39,34 +41,127 @@ div i.fa-github {
 }
 
 /* Pofolio*/
-.home-background {
+.home-background, .background, .contact-background {
     background-image: url(../img/luca-micheli-673093-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-     
-}
-
-
-.background {
-    background-image: url(../img/luca-micheli-673093-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-   
-}
-
-.contact-background {
-    background-image: url(../img/luca-micheli-673093-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 150vh;
-
 
 }
-option{
+
+
+/*Contact*/
+
+option {
     font-size: 1rem;
 }
 
+.fa-users {
+    height: 37px;
+    width: 10%;
+}
 
+div.contact-us {
+    background-color: #ff0040;
+    height: 550px;
+}
+
+div i.fa-envelope {
+    display: flex;
+    justify-content: flex-start;
+}
+
+div .contact-box {
+    padding: 10% 10% 10%;
+    padding-top: 25%;
+    margin: 10% 10% 10%;
+}
+
+div .h1-contact {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+div .h4-contact {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+/*Colors */
+nav .navbar-dark {
+    color: #3e4954 ! important;
+}
+
+div .text-white {
+    color: #f9f7f7 ! important;
+}
+
+i.text-danger {
+    color: #fce42a ! important;
+}
+
+.border-bottom {
+    color: 1px solid #fce42a;
+}
+
+/*
+.border-outline-danger{
+    color: #fce42a;
+}
+*/
+.border {
+    border: 1px solid #fce42a ! important;
+}
+
+
+/*width: 80vw; for media, mobile 95vw */
+@media (max-width: 576px) {
+    div.contact-us {
+        display: none;
+    }
+    .container{
+        width: 95vw;
+    }
+}
+
+@media (min-width: 576px) {
+    div.container.text-white {
+        width: 98vw;
+    }
+
+    div.contact-us {
+        display: none;
+    }
+    .container{
+        width: 95vw;
+    }
+}
+
+@media (min-width: 768px) {
+    div.container.text-white {
+        width: 80vw;
+    }
+
+    div.contact-us {
+        display: block;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    div.container.text-white {
+        width: 80vw;
+    }
+
+    div.contact-us {
+        display: block;
+    }
+
+   
+}
+
+@media (min-width: 1200px) {
+    width: 80vw;
+}
+
+}
