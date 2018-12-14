@@ -185,6 +185,9 @@ label {
 .btn-white{
     background-color: #efd81d ! important;
 }
+.bg-dark{
+    background-color: #e6e6ff! important;
+}
 /*
 .text-danger {
     color: #fce42a! important;
