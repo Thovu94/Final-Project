@@ -86,6 +86,10 @@ div .h4-contact {
     display: inline-block;
     padding-top: 20px;
 }
+label{
+    font-size: 1.414rem;
+    color:black;
+}
 
 /*Colors */
 nav .navbar-dark {
@@ -116,9 +120,7 @@ i.text-danger {
 
 /*width: 80vw; for media, mobile 95vw */
 @media (max-width: 576px) {
-    div.contact-us {
-        display: none;
-    }
+    
     .container{
         width: 95vw;
     }
@@ -129,9 +131,7 @@ i.text-danger {
         width: 98vw;
     }
 
-    div.contact-us {
-        display: none;
-    }
+   
     .container{
         width: 95vw;
     }
@@ -141,10 +141,6 @@ i.text-danger {
     div.container.text-white {
         width: 80vw;
     }
-
-    div.contact-us {
-        display: block;
-    }
     
 }
 
@@ -152,11 +148,6 @@ i.text-danger {
     div.container.text-white {
         width: 80vw;
     }
-
-    div.contact-us {
-        display: block;
-    }
-
    
 }
 
