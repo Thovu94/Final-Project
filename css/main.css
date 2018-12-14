@@ -4,12 +4,18 @@
     height: 40vh;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
-   
+
 
 }
-.name{
+
+.container {
+    width: 99vw;
+}
+
+.name {
     font-size: 3rem;
 }
+
 h1 {
     color: black;
 }
@@ -24,14 +30,17 @@ div i.fa-js {
 
 
 /* Pofolio*/
-.home-background, .background, .contact-background {
+.home-background,
+.background,
+.contact-background {
     background-image: url(../img/luca-micheli-673093-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 
 }
-.py-3{
+
+.py-3 {
     padding-top: 20px;
     margin-top: 50px;
 }
@@ -49,7 +58,6 @@ option {
 }
 
 div.contact-us {
-    background-color: #ff0040;
     height: 550px;
 }
 
@@ -74,75 +82,108 @@ div .h4-contact {
     display: inline-block;
     padding-top: 20px;
 }
-label{
+
+label {
     font-size: 1rem;
     color: #3e4954;
 }
-.pt-date{
-    padding-top: -20px! important;
-    margin-top: -20px! important;
+
+.pt-date {
+    margin-top: 10px ! important;
+}
+.btn{
+    margin-top: 20px! important;
+    margin-bottom: 50px;
 }
 
 /*============================================================*/
 /*Colors */
-.nav-link, .nav-item, .navbar-brand, .navbar-toggler, .navbar-toggler-icon, .navbar, .navbar-expand-lg, .collapse navbar-collapse{
-    color: 	 #efd81d! important;
-    font-weight:600;
+.nav-link,
+.nav-item,
+.navbar-brand,
+.navbar-toggler,
+.navbar-toggler-icon,
+.navbar,
+.navbar-expand-lg,
+.collapse navbar-collapse {
+    color: #efd81d ! important;
+    font-weight: 600;
 }
-.nav-item{
+
+.nav-item {
     font-size: 1rem;
 }
 
 .text-white {
-    color:  #efd81d! important; /*Js, menu*/
+    color: #efd81d ! important;
+    /*Js, menu*/
 }
 
-.text-danger{
-    color: #5e2683! important; /*github*/
+.text-danger {
+    color: #5e2683 ! important;
+    /*github*/
 }
-.text-success{
-    color: #c76494! important; /*sass*/
+
+.text-success {
+    color: #c76494 ! important;
+    /*sass*/
 }
-.text-info{
-    color: #dd4d2a! important; /*html5*/
+
+.text-info {
+    color: #dd4d2a ! important;
+    /*html5*/
 }
-.text-light{
-     color: #249cda! important; /*css3*/
+
+.text-light {
+    color: #249cda ! important;
+    /*css3*/
 }
-.text-warning{
-    color: #ffffff! important;
+
+.text-warning {
+    color: #ffffff ! important;
 }
+
 .navbar-dark {
-    color: #3e4954! important;
+    color: #3e4954 ! important;
 }
 
-.border-bottom{
-    border-bottom: 1px solid #efd81d! important;
+.border-bottom {
+    border-bottom: 1px solid #efd81d ! important;
 }
 
-.border-info{
-    border-color: #dd4d2a! important;
+.border-info {
+    border-color: #dd4d2a ! important;
 }
-.border-success{
-    border-color: #c76494! important;
+
+.border-success {
+    border-color: #c76494 ! important;
 }
-.border-danger{
-    border-color: #5e2683! important;
+
+.border-danger {
+    border-color: #5e2683 ! important;
 }
-.border-white{
-    border-color: #efd81d! important;
+
+.border-white {
+    border-color: #efd81d ! important;
 }
-.bg-white{
-     background-color: #efd81d! important;
+
+.bg-white {
+    background-color: #efd81d ! important;
 }
-.bg-light{
-    background-color: #249cda! important;
+
+.bg-light {
+    background-color: #249cda ! important;
 }
-.bg-success{
-    background-color: #c76494! important;
+
+.bg-success {
+    background-color: #c76494 ! important;
 }
-.bg-info{
-    background-color: #dd4d2a! important;
+
+.bg-info {
+    background-color: #dd4d2a ! important;
+}
+.btn-white{
+    background-color: #efd81d ! important;
 }
 /*
 .text-danger {
@@ -169,40 +210,34 @@ label{
 
 
 /*width: 80vw; for media, mobile 95vw */
-@media (max-width: 575.98px) { 
-    
-    .container{
-        width: 95vw;
+@media (max-width: 575.98px) {
+    .container {
+        width: 99vw;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    div.container.text-white {
-        width: 98vw;
-    }
-
-   
-    .container{
-        width: 95vw;
+    .container {
+        width: 80vw;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    div.container.text-white {
+    .container {
         width: 80vw;
     }
-    
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    div.container.text-white {
+    .container {
         width: 80vw;
     }
-   
+
 }
 
 @media (min-width: 1200px) {
-    width: 80vw;
-}
+    .container {
+        width: 80vw;
+    }
 
 }

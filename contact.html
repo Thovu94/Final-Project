@@ -42,7 +42,7 @@
             </div>
         </nav>
 
-        <div class="container-fluid d-flex flex-row justify-content-center border-bottom">
+        <div class="container-fluid d-flex flex-row justify-content-center">
             <img src="img/kid.png" class="rounded-circle align-self-center" alt="my picture">
             <p class="align-self-center text-white"><i style="margin-left: 2rem" class="name">Truong Tho Vu</i></p>
 
@@ -51,10 +51,10 @@
 
     <!--    width: 80vw, mobile whole width-->
 
-    <div class="container-fluid pt-5">
+    <div class="container py-5 mx-auto">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-4 pt-1 mx-md-auto">
-                <div class="contact-us">
+            <div class="col-xs-12 col-sm-12 col-md-4 pt-1 mx-auto">
+                <div class="contact-us bg-info">
                     <div class="contact-box">
                         <i class="far fa-envelope far-5x text-white"></i>
                         <h1 class="h1-contact text-white">Contact Us Today</h1>
@@ -62,23 +62,23 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 pt-5">
+            <div class="col-xs-12 col-sm-12 col-md-4 pt-3">
                 <form>
                     <div class="pt-3">
-                        <div class="form-group pb-3">
+                        <div class="form-group pb-2">
 
                             <input type="firstname" class="form-control" placeholder="Firstname">
                         </div>
-                        <div class="form-group py-3">
+                        <div class="form-group py-2">
                             <input type="lastname" class="form-control" placeholder="Lastname">
                         </div>
-                        <div class="form-group py-3">
+                        <div class="form-group py-2">
                             <input type="email" class="form-control" placeholder="Email">
                         </div>
-                        <div class="form-group py-3">
+                        <div class="form-group py-2">
                             <input type="phonenumber" class="form-control" placeholder="Phone Number">
                         </div>
-                        <div class="form-group pt-3 pb-0">
+                        <div class="form-group pt-2 pb-0">
                             <select class="form-control">
                                 <option class="form-control text-center">---Choose---</option>
                                 <option value="1" class="form-control">Full-time</option>
@@ -87,12 +87,12 @@
                             </select>
                         </div>
                         <div class="pt-date">
-                            <div class="form-group pb-3">
+                            <div class="form-group">
                                 <label for="validationdafault">From</label>
                                 <input type="date" class="form-control" id="validationdefault" placeholder="Date" required>
 
                             </div>
-                            <div class="form-group pb-3 pt-date">
+                            <div class="form-group">
                                 <label for="validationdafault">To</label>
                                 <input type="date" class="form-control" id="validationdefault" placeholder="Date" required>
                             </div>
@@ -102,14 +102,17 @@
 
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 pt-4">
-                <div class="form-group pt-md-5">
-                    <div class="pt-md-5">
+                <form>
+                    <div class="form-group pt-md-5">
                         <div class="pt-md-5">
-                            <textarea class="form-control" rows="10" id="details">Details</textarea>
-                            <button type="submit" class="btn btn-primary border border-warning">Submit</button>
+                            <div class="pt-md-5">
+                                <textarea class="form-control" rows="10" id="details">Details</textarea>
+
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <button type="submit" class="btn btn-white">Submit</button>
+                </form>
             </div>
         </div>
     </div>
