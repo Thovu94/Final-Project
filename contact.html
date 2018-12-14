@@ -16,6 +16,8 @@
 </head>
 
 <body>
+    <!--   background-image-->
+
     <div class="contact-background">
         <nav class="navbar navbar-expand-lg navbar-dark border-bottom">
             <a class="navbar-brand" href="#">Menu</a>
@@ -42,16 +44,19 @@
 
         <div class="container-fluid d-flex flex-row justify-content-center border-bottom">
             <img src="img/kid.png" class="rounded-circle align-self-center" alt="my picture">
-            <p class="align-self-center"><i style="margin-left: 2rem">Truong Tho Vu</i></p>
+            <p class="align-self-center text-white"><i style="margin-left: 2rem" class="name">Truong Tho Vu</i></p>
 
         </div>
     </div>
+
+    <!--    width: 80vw, mobile whole width-->
+
     <div class="container-fluid pt-5">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-4 pt-1 mx-md-auto">
                 <div class="contact-us">
                     <div class="contact-box">
-                        <i class="far fa-envelope far-5x"></i>
+                        <i class="far fa-envelope far-5x text-white"></i>
                         <h1 class="h1-contact text-white">Contact Us Today</h1>
                         <h4 class="h4-contact text-white">Hotline: (613)-316-1361</h4>
                     </div>
@@ -59,7 +64,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 pt-5">
                 <form>
-                    <div class="pt-5">
+                    <div class="pt-3">
                         <div class="form-group pb-3">
 
                             <input type="firstname" class="form-control" placeholder="Firstname">
@@ -81,15 +86,16 @@
 
                             </select>
                         </div>
-                        <div class="form-group pt-0 pb-3">
-                            <label for="validationdafault">From</label>
-                            <input type="date" class="form-control" id="validationdefault" placeholder="Date" required>
+                        <div class="pt-date">
+                            <div class="form-group pb-3">
+                                <label for="validationdafault">From</label>
+                                <input type="date" class="form-control" id="validationdefault" placeholder="Date" required>
 
-                        </div>
-                        <div class="form-group pt-0 pb-3">
-                            <label for="validationdafault">To</label>
-                            <input type="date" class="form-control" id="validationdefault" placeholder="Date" required>
-
+                            </div>
+                            <div class="form-group pb-3 pt-date">
+                                <label for="validationdafault">To</label>
+                                <input type="date" class="form-control" id="validationdefault" placeholder="Date" required>
+                            </div>
                         </div>
                     </div>
                 </form>

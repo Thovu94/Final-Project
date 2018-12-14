@@ -2,13 +2,14 @@
 
 .container-fluid {
     height: 40vh;
-    font-size: 3rem;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    color: #f9f7f7;
+   
 
 }
-
+.name{
+    font-size: 3rem;
+}
 h1 {
     color: black;
 }
@@ -29,6 +30,10 @@ div i.fa-js {
     background-repeat: no-repeat;
     background-position: center center;
 
+}
+.py-3{
+    padding-top: 20px;
+    margin-top: 50px;
 }
 
 /*============================================================*/
@@ -51,12 +56,13 @@ div.contact-us {
 div i.fa-envelope {
     display: flex;
     justify-content: flex-start;
+    font-size: 8rem;
 }
 
 div .contact-box {
-    padding: 10% 10% 10%;
+    padding-left: 1%;
     padding-top: 25%;
-    margin: 10% 10% 10%;
+    margin-left: 10%;
 }
 
 div .h1-contact {
@@ -69,16 +75,22 @@ div .h4-contact {
     padding-top: 20px;
 }
 label{
-    font-size: 1.414rem;
-    color:black;
+    font-size: 1rem;
+    color: #3e4954;
 }
-
+.pt-date{
+    padding-top: -20px! important;
+    margin-top: -20px! important;
+}
 
 /*============================================================*/
 /*Colors */
 .nav-link, .nav-item, .navbar-brand, .navbar-toggler, .navbar-toggler-icon, .navbar, .navbar-expand-lg, .collapse navbar-collapse{
     color: 	 #efd81d! important;
     font-weight:600;
+}
+.nav-item{
+    font-size: 1rem;
 }
 
 .text-white {
