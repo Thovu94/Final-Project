@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .container-fluid {
-    height: 40vh;
+    min-height: 40vh;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
 
