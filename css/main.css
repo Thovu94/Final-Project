@@ -15,30 +15,12 @@ h1 {
 
 .rounded-circle {
     height: 20vh;
-
 }
-
 
 div i.fa-js {
-    color: #efd81d;
-    background-color: white;
+    background-color: #ffffff;
 }
 
-div i.fa-sass {
-    color: #c76494;
-}
-
-div i.fa-html5 {
-    color: #dd4d2a;
-}
-
-div i.fa-css3-alt {
-    color: #249cda;
-}
-
-div i.fa-github {
-    color: #5e2683;
-}
 
 /* Pofolio*/
 .home-background, .background, .contact-background {
@@ -49,7 +31,7 @@ div i.fa-github {
 
 }
 
-
+/*============================================================*/
 /*Contact*/
 
 option {
@@ -91,22 +73,71 @@ label{
     color:black;
 }
 
+
+/*============================================================*/
 /*Colors */
-nav .navbar-dark {
-    color: #3e4954 ! important;
+.nav-link, .nav-item, .navbar-brand, .navbar-toggler, .navbar-toggler-icon, .navbar, .navbar-expand-lg, .collapse navbar-collapse{
+    color: 	 #efd81d! important;
+    font-weight:600;
 }
 
-div .text-white {
-    color: #f9f7f7 ! important;
+.text-white {
+    color:  #efd81d! important; /*Js, menu*/
 }
 
-i.text-danger {
-    color: #fce42a ! important;
+.text-danger{
+    color: #5e2683! important; /*github*/
+}
+.text-success{
+    color: #c76494! important; /*sass*/
+}
+.text-info{
+    color: #dd4d2a! important; /*html5*/
+}
+.text-light{
+     color: #249cda! important; /*css3*/
+}
+.text-warning{
+    color: #ffffff! important;
+}
+.navbar-dark {
+    color: #3e4954! important;
 }
 
-.border-bottom {
-    color: 1px solid #fce42a;
+.border-bottom{
+    border-bottom: 1px solid #efd81d! important;
 }
+
+.border-info{
+    border-color: #dd4d2a! important;
+}
+.border-success{
+    border-color: #c76494! important;
+}
+.border-danger{
+    border-color: #5e2683! important;
+}
+.border-white{
+    border-color: #efd81d! important;
+}
+.bg-white{
+     background-color: #efd81d! important;
+}
+.bg-light{
+    background-color: #249cda! important;
+}
+.bg-success{
+    background-color: #c76494! important;
+}
+.bg-info{
+    background-color: #dd4d2a! important;
+}
+/*
+.text-danger {
+    color: #fce42a! important;
+}
+*/
+
 
 /*
 .border-outline-danger{
@@ -118,15 +149,22 @@ i.text-danger {
 }
 
 
+
+
+
+/*============================================================*/
+
+
+
 /*width: 80vw; for media, mobile 95vw */
-@media (max-width: 576px) {
+@media (max-width: 575.98px) { 
     
     .container{
         width: 95vw;
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
     div.container.text-white {
         width: 98vw;
     }
@@ -137,14 +175,14 @@ i.text-danger {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
     div.container.text-white {
         width: 80vw;
     }
     
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
     div.container.text-white {
         width: 80vw;
     }
